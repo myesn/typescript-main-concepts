@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2016",
+    "jsx": "preserve",
+    "noEmitOnError": true, // 当编译发生错误时不输出js文件
+    "noEmit": true, // 不输出js文件
+    "sourceMap": false
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
