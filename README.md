@@ -9,4 +9,4 @@
 - [社区高质量 TypeScript 类型定义](https://github.com/DefinitelyTyped/DefinitelyTyped)
 - [Microsoft Typed Seacher](https://www.typescriptlang.org/dt/search)
 - [ECMAScript 6 入门](http://es6.ruanyifeng.com)
-- [网道](http://es6.ruanyifeng.com)
+- [网道](https://wangdoc.com)
