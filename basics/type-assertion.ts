@@ -83,28 +83,28 @@ tom.run();
 // 类型断言的限制
 // 具体来说，若 A 兼容 B，那么 A 能够被断言为 B，B也能被断言为 A
 // TypeScript 是结构类型系统，类型之间的对比只会比较它们最终的结构，而会忽略它们定义时的关系
-interface Animal {
+interface Animal111 {
   name: string;
 }
-interface Cat {
+interface Cat11 {
   name: string;
   run(): void;
 }
 
-let tom2: Cat = {
+let tom2: Cat11 = {
   name: 'Tom',
   run: () => {
     console.log('run');
   },
 };
-let animal: Animal = tom2;
+let animal: Animal111 = tom2;
 // Cat 包含了 Animal 中的所有属性，除此之外，它还有一个额外的方法 run。
 // TypeScript 并不关心 Cat 和 Animal 之间定义时是什么关系，
 // 而只会看它们最终的结构有什么关系——所以它与 Cat extends Animal 是等价的
-interface Animal2 {
+interface Animal21 {
   name: string;
 }
-interface Cat2 extends Animal2 {
+interface Cat2 extends Animal21 {
   run(): void;
 }
 // 那么也不难理解为什么 Cat 类型的 tom 可以赋值给 Animal 类型的 animal 了，
