@@ -5,6 +5,7 @@
   - [常用配置项](https://segmentfault.com/a/1190000022809326)
 - [TypeScript 入门教程](https://ts.xcatliu.com)
   - [进度](https://ts.xcatliu.com/advanced/declaration-merging.html)
+  - [扩展阅读](https://ts.xcatliu.com/advanced/further-reading.html)
 - [TypeScript 使用手册](https://github.com/zhongsp/TypeScript)
 - [社区高质量 TypeScript 类型定义](https://github.com/DefinitelyTyped/DefinitelyTyped)
 - [Microsoft Typed Seacher](https://www.typescriptlang.org/dt/search)
